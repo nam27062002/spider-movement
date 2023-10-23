@@ -1,6 +1,7 @@
 ﻿using StateMachines;
+using UnityEngine;
 
-namespace Enemies.Spiders.StateMachines.Movement.States
+namespace Enemies.Spiders
 {
     public class SpiderMovementState : IState
     {
@@ -13,7 +14,7 @@ namespace Enemies.Spiders.StateMachines.Movement.States
         #region IState Methods
         public void Enter()
         {
-            
+            Debug.Log($"Sprite state: {GetType().Name}");
         }
         public void Exit()
         {

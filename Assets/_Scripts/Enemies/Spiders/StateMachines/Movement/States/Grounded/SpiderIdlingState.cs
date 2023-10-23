@@ -1,4 +1,4 @@
-﻿namespace Enemies.Spiders.StateMachines.Movement.States.Grounded
+﻿namespace Enemies.Spiders
 {
     public class SpiderIdlingState : SpiderGroundedState
     {
